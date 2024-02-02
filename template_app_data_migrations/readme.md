@@ -1,0 +1,2 @@
+﻿add-migration InitialMigration -StartupProject template_app_data_migrations -Project template_app_infrastructure
+Script-Migration -Idempotent -StartupProject template_app_data_migrations -SOutput .\template_app_data_migrations\Scripts\script.sql
